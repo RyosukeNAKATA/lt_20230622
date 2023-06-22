@@ -1,5 +1,4 @@
 {
-  "main": "index.js",
   "scripts": {
     "dev": "marp -s",
     "build": "marp && cp src/index.html public"

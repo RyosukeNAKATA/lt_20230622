@@ -173,8 +173,8 @@ settigns→actions→General→Workflow permissionsに書き込み権限を与�
 
 ---
 
-完成したものがこのスライドです
-
+完成したものがこのスライドです!
+(2週間でバージョン変わってnodeとのバージョンの整合に苦労しました)
 
 ---
 
