@@ -160,6 +160,12 @@ Settings→Secrets & Variables → Actions → New Repository secret → `ACTION
 
 ---
 
+# github pagesの設定
+
+settigns→pages→gh-pagesブランチのrootでデプロイするようにする
+
+---
+
 
 # あとはでmdファイルを
 # 書いて全部push!
