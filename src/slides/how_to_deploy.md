@@ -178,7 +178,6 @@ settigns→actions→General→Workflow permissionsに書き込み権限を与�
 
 ---
 
-参考
+### 参考
 
-- [
-【Marp】スライドを自動デプロイしてみる](https://sakaf.net/posts/marp-deploy/)
+- [【Marp】スライドを自動デプロイしてみる](https://sakaf.net/posts/marp-deploy/)
