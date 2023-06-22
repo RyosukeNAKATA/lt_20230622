@@ -1,0 +1,3 @@
+lang: ja-JP
+inputDir: "./src/slides/"
+output: "./public/slides/"
