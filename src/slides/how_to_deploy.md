@@ -70,7 +70,6 @@ $ project_home/
       └── how_to_deploy.md  🆕
 ```
 
-
 ---
 
 ディレクトリ構成(mainブランチ)
@@ -169,3 +168,16 @@ settigns→pages→gh-pagesブランチのrootでデプロイするようにす�
 
 # あとはでmdファイルを
 # 書いて全部push!
+
+
+---
+
+完成したものがこのスライドです
+
+
+---
+
+参考
+
+- [
+【Marp】スライドを自動デプロイしてみる](https://sakaf.net/posts/marp-deploy/)
