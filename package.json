@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.5.0"
+    "@marp-team/marp-cli": "^3.0.2"
   } 
 }
