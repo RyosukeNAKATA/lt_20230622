@@ -160,8 +160,9 @@ Settings→Secrets & Variables → Actions → New Repository secret → `ACTION
 ---
 
 # github pagesの設定
-
 settigns→pages→gh-pagesブランチのrootでデプロイするようにする
+
+settigns→actions→General→Workflow permissionsに書き込み権限を与える
 
 ---
 
