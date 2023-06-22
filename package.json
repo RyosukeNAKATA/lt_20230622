@@ -7,6 +7,9 @@
     "dev": "marp -s",
     "build": "marp && cp src/index.html public"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "@marp-team/marp-cli": "^3.0.2"
   },
