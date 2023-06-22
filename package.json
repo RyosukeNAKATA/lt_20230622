@@ -1,4 +1,7 @@
 {
+  "name": "lt_20230623",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "marp -s",
@@ -6,5 +9,5 @@
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^3.0.2"
-  }
+  },
 }
