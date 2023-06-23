@@ -36,6 +36,7 @@ LT会やmtgなどのちょっとした発表
 
 ---
 
+### 1. 準備
 
 事前にGitHubリポジトリを用意&cloneしておく
 
@@ -55,6 +56,8 @@ $ project_home/
 
 ---
 
+### 1. 準備
+
 ディレクトリ構成(mainブランチ)
 ```
 .
@@ -71,6 +74,8 @@ $ project_home/
 ```
 
 ---
+
+### 1. 準備
 
 ディレクトリ構成(mainブランチ)
 ```
@@ -89,7 +94,9 @@ $ project_home/
 
 ---
 
-`.marprc.yml`
+### 2. marpの設定(1/2)
+
+`./.marprc.yml`
 
 ```
 lang: ja-JP
@@ -98,7 +105,8 @@ output: "./public/slides/"
 ```
 ---
 
-`package.json`
+### 2. marpの設定(2/2)
+`./package.json`
 
 ```
 {
@@ -114,6 +122,7 @@ output: "./public/slides/"
 
 ---
 
+3. GitHub Actionsの設定
 `.github/workflows/deploy.yml`
 
 ```
@@ -142,6 +151,8 @@ jobs:
 
 ---
 
+### 4. Secretsの設定(1/3)
+
 ```
 $ ~/.ssh/
 ❯ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
@@ -149,20 +160,23 @@ $ ~/.ssh/
 
 ---
 
+### 4. Secretsの設定(2/3)
+
 公開鍵
 
-Settings→Deploy Keys→Add deploy key→適当な名前を付けて保存(Allow write accessにチェックをする)
+Settings → Deploy Keys → Add deploy key → 適当な名前を付けて保存(Allow write accessにチェックをする)
 
 秘密鍵
 
-Settings→Secrets & Variables → Actions → New Repository secret → `ACTIONS_DEPLOY_KEY` という名前で値を保存
+Settings → Secrets&Variables → Actions → New Repository secret → `ACTIONS_DEPLOY_KEY` という名前で値を保存
 
 ---
 
-# github pagesの設定
-settigns→pages→gh-pagesブランチのrootでデプロイするようにする
+### 4. Secretsの設定(3/3)
 
-settigns→actions→General→Workflow permissionsに書き込み権限を与える
+github pagesの設定
+- Settigns→Pages→gh-pagesブランチのrootでデプロイするようにする
+- Settigns→Actions→General→Workflow permissionsに書き込み権限を与える
 
 ---
 
@@ -175,6 +189,10 @@ settigns→actions→General→Workflow permissionsに書き込み権限を与�
 
 完成したものがこのスライドです!
 (2週間でバージョン変わってnodeとのバージョンの整合に苦労しました)
+
+---
+
+[このスライドのリポジトリ](https://github.com/RyosukeNAKATA/lt_20230622)
 
 ---
 

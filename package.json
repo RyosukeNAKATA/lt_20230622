@@ -5,5 +5,5 @@
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^3.0.2"
-  } 
+  }
 }
