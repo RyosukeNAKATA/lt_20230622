@@ -7,7 +7,8 @@ class:
 ---
 
 # md→github pages
-## GitHub Actionsを使ったAuto Deploy
+## GitHub Actionsを使った
+## Auto Deploy
 
 23卒/chai 中田亮佑(RyosukeNAKATA)
 
@@ -193,7 +194,7 @@ github pagesの設定
 ---
 
 :arrow_down:このスライドのリポジトリリンク:arrow_down:
-[このスライドのリポジトリ](https://github.com/RyosukeNAKATA/lt_20230622)
+[GitHub](https://github.com/RyosukeNAKATA/lt_20230622)
 
 ---
 
