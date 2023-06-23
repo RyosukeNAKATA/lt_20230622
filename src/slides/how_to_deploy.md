@@ -192,6 +192,7 @@ github pagesの設定
 
 ---
 
+:arrow_down:このスライドのリポジトリリンク:arrow_down:
 [このスライドのリポジトリ](https://github.com/RyosukeNAKATA/lt_20230622)
 
 ---
